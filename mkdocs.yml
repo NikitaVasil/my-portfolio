@@ -1,9 +1,10 @@
-site_name: Doc.Portal
+site_name: Докa
 site_description: Портфолио специалиста разработки технической документации и Docs-as-Code
 
 theme:
   name: material
   logo: assets/image/logo.svg
+  favicon: assets/image/logo.svg
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода

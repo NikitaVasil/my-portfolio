@@ -76,3 +76,14 @@ markdown_extensions:
 plugins:
   - search
   - glightbox # Для красивых галерей скриншотов
+  - link-embeds:
+      enabled: true
+      name_default: "База знаний: нормативы, методологии, инструменты"
+      desc_default: "Цифровое пространство, которое обеспечивает качество и эффективность работы над документацией"
+      favicon_size: 25
+      target: "blank"
+      accent: "FFFFFF1A"
+      verbose: false
+
+extra_css:
+  - stylesheets/link-embeds.css

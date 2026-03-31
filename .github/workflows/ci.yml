@@ -22,5 +22,5 @@ jobs:
       - run: pip install mkdocs-link-embeds-plugin
       - run: pip install mkdocs_puml
       - run: pip install mkdocs-swagger-ui-tag
-      - run: pip install mkdocs-redoc-
+      - run: pip install mkdocs-redoc
       - run: mkdocs gh-deploy --force

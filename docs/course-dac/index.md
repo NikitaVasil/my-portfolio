@@ -24,10 +24,28 @@
 
     Документирование процесса редактирования:
 
-    - Основной сценарий (happy path)
+    - Основной сценарий
     - Альтернативные сценарии
     - Обработка ошибок
 
     [:octicons-arrow-right-24: Смотреть сценарий](./tasks/edit-note.md)
+
+-   :material-api:{ .lg .middle } **Подключение OpenAPI**
+
+    ---
+
+    Познакомился с инструментами визуализации для генерации интерактивной документации по спецификации OpenAPI:
+
+    [:octicons-arrow-right-24: Swagger-IO](./tasks/api-swagger.md)
+
+    [:octicons-arrow-right-24: Redoc](./tasks/api-redoc.md)
+
+-   :material-sitemap:{ .lg .middle } **Диаграмма**
+
+    ---
+
+    На основе пользовательского сценария была разработана диаграмма с использованием PlantUML:
+
+    [:octicons-arrow-right-24: Диаграмма пользовательского сценария](./tasks/plant-uml.md)
 
 </div>

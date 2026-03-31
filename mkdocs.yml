@@ -42,6 +42,7 @@ nav: # Структура сайта
       - Примеры доки приложения Нотсапп:
           - Спецификация: course-dac/tasks/specification.md
           - Сценарий "Редактирование заметки": course-dac/tasks/edit-note.md
+          - Диаграмма "Редактирование заметки": course-dac/tasks/plant-uml.md
           - API Specification Swagger: course-dac/tasks/api-swagger.md
           - API Specification Redoc: course-dac/tasks/api-redoc.md
 
@@ -69,12 +70,10 @@ plugins:
   - redoc-tag
   - link-embeds: # https://aetherinox.github.io/mkdocs-link-embeds/setup/install/ - полезная ссылка
       enabled: true
-      # name_default: "База знаний: нормативы, методологии, инструменты"
-      # desc_default: "Цифровое пространство, которое обеспечивает качество и эффективность работы над документацией"
-      # favicon_size: 25
-      # target: "blank"
-      # accent: "FFFFFF1A"
-      # verbose: false
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
 
 extra:
   generator: false # Убирает "Made with MkDocs"

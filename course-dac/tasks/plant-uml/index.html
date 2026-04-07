@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Портфолио специалиста разработки технической документации и Docs-as-Code" name="description"/>
+<meta content="Васильняк Никита" name="author"/>
+<link href="../edit-note/" rel="prev"/>
+<link href="../api-swagger/" rel="next"/>
+<link href="../../../assets/image/logo.svg" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.6" name="generator"/>
+<title>Диаграмма "Редактирование заметки" - Портфолио</title>
+<link href="../../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../stylesheets/link-embeds.css" rel="stylesheet"/>
+<link href="../../../stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/puml.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/interaction.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="my-scheme" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          Перейти к содержанию
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Верхний колонтитул" class="md-header__inner md-grid">
+<a aria-label="Портфолио" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Портфолио">
+<img alt="logo" src="../../../assets/image/logo.svg"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Портфолио
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Диаграмма "Редактирование заметки"
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-hidden="true" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="my-scheme" id="__palette_0" name="__palette" type="radio"/>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Поиск" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Поиск" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Поиск" class="md-search__options">
+<button aria-label="Очистить" class="md-search__icon md-icon" tabindex="-1" title="Очистить" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Вкладки" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  Обо мне
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../portfolio/">
+          
+  
+  
+    
+  
+  Портфолио
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
+          
+  
+  
+    
+  
+  Курс Docs-as-Code
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Навигация" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Портфолио" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Портфолио">
+<img alt="logo" src="../../../assets/image/logo.svg"/>
+</a>
+    Портфолио
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    
+  
+    Обо мне
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../../portfolio/">
+<span class="md-ellipsis">
+    
+  
+    Портфолио
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Портфолио
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../">
+<span class="md-ellipsis">
+    
+  
+    Курс Docs-as-Code
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Курс Docs-as-Code
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../telegram-scenario/">
+<span class="md-ellipsis">
+    
+  
+    Инструкция для Telegram
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Примеры доки приложения Нотсапп
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Примеры доки приложения Нотсапп
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../specification/">
+<span class="md-ellipsis">
+    
+  
+    Спецификация
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../edit-note/">
+<span class="md-ellipsis">
+    
+  
+    Сценарий "Редактирование заметки"
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    Диаграмма "Редактирование заметки"
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../api-swagger/">
+<span class="md-ellipsis">
+    
+  
+    API Specification Swagger
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../api-redoc/">
+<span class="md-ellipsis">
+    
+  
+    API Specification Redoc
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Содержание" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<nav aria-label="Навигация" class="md-path">
+<ol class="md-path__list">
+<li class="md-path__item">
+<a class="md-path__link" href="../../..">
+<span class="md-ellipsis">
+    Обо мне
+  </span>
+</a>
+</li>
+<li class="md-path__item">
+<a class="md-path__link" href="../../">
+<span class="md-ellipsis">
+    Курс Docs-as-Code
+  </span>
+</a>
+</li>
+<li class="md-path__item">
+<a class="md-path__link" href="../specification/">
+<span class="md-ellipsis">
+    Примеры доки приложения Нотсапп
+  </span>
+</a>
+</li>
+</ol>
+</nav>
+<article class="md-content__inner md-typeset">
+<h1 id="_1">Диаграмма пользовательского сценария "Редактирование заметки"<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p>На основе пользовательского сценария "Редактирование заметки" была разработана диаграмма последовательности, которая показывает взаимодействие участников.</p>
+<div class="puml-container"><div class="puml light" style="display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="817px" preserveAspectRatio="xMidYMid meet" style="width:1153px;height:817px;background:#282828;" version="1.1" viewBox="0 0 1153 817" width="1153px" zoomAndPan="magnify" class="diagram"><?plantuml 1.2026.3beta6?><defs/><g><rect fill="#282828" height="817" style="stroke:none;stroke-width:1;" width="1153" x="0" y="0"/><rect fill="#282828" height="90.5313" style="stroke:#33FF33;stroke-width:1;" width="521.8159" x="15" y="274.0938"/><rect fill="#282828" height="90.5313" style="stroke:#33FF33;stroke-width:1;" width="521.8159" x="15" y="466.0234"/><g class="participant-lifeline" data-entity-uid="part1" data-qualified-name="user" data-source-line="2" id="part1-lifeline"><g><title>............</title><rect fill="#000000" fill-opacity="0.00000" height="652.0547" width="8" x="75.5498" y="82.2969"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:5,5;" x1="79" x2="79" y1="82.2969" y2="734.3516"/></g></g><g class="participant-lifeline" data-entity-uid="part2" data-qualified-name="client" data-source-line="3" id="part2-lifeline"><g><title>..........</title><rect fill="#000000" fill-opacity="0.00000" height="652.0547" width="8" x="458.7573" y="82.2969"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:5,5;" x1="462.6987" x2="462.6987" y1="82.2969" y2="734.3516"/></g></g><g class="participant-lifeline" data-entity-uid="part3" data-qualified-name="back" data-source-line="4" id="part3-lifeline"><g><title>...</title><rect fill="#000000" fill-opacity="0.00000" height="652.0547" width="8" x="783.9854" y="82.2969"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:5,5;" x1="787.1133" x2="787.1133" y1="82.2969" y2="734.3516"/></g></g><g class="participant-lifeline" data-entity-uid="part4" data-qualified-name="db" data-source-line="5" id="part4-lifeline"><g><title>.... ......</title><rect fill="#000000" fill-opacity="0.00000" height="652.0547" width="8" x="1088.4819" y="82.2969"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:5,5;" x1="1092.2012" x2="1092.2012" y1="82.2969" y2="734.3516"/></g></g><g class="participant participant-head" data-entity-uid="part1" data-qualified-name="user" data-source-line="2" id="part1-head"><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103.0996" x="25" y="78.9951">Пользователь</text><ellipse cx="79.5498" cy="14" fill="#282828" rx="8" ry="8" style="stroke:#33FF33;stroke-width:1;"/><path d="M79.5498,22 L79.5498,49 M66.5498,30 L92.5498,30 M79.5498,49 L66.5498,64 M79.5498,49 L92.5498,64" fill="none" style="stroke:#33FF33;stroke-width:1;"/></g><g class="participant participant-tail" data-entity-uid="part1" data-qualified-name="user" data-source-line="2" id="part1-tail"><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103.0996" x="25" y="746.3467">Пользователь</text><ellipse cx="79.5498" cy="758.6484" fill="#282828" rx="8" ry="8" style="stroke:#33FF33;stroke-width:1;"/><path d="M79.5498,766.6484 L79.5498,793.6484 M66.5498,774.6484 L92.5498,774.6484 M79.5498,793.6484 L66.5498,808.6484 M79.5498,793.6484 L92.5498,808.6484" fill="none" style="stroke:#33FF33;stroke-width:1;"/></g><g class="participant participant-head" data-entity-uid="part2" data-qualified-name="client" data-source-line="3" id="part2-head"><rect fill="#282828" height="30.2969" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1;" width="108.1172" x="408.6987" y="51"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94.1172" x="415.6987" y="70.9951">Приложение</text></g><g class="participant participant-tail" data-entity-uid="part2" data-qualified-name="client" data-source-line="3" id="part2-tail"><rect fill="#282828" height="30.2969" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1;" width="108.1172" x="408.6987" y="733.3516"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94.1172" x="415.6987" y="753.3467">Приложение</text></g><g class="participant participant-head" data-entity-uid="part3" data-qualified-name="back" data-source-line="4" id="part3-head"><rect fill="#282828" height="30.2969" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1;" width="39.7441" x="768.1133" y="51"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25.7441" x="775.1133" y="70.9951">Бэк</text></g><g class="participant participant-tail" data-entity-uid="part3" data-qualified-name="back" data-source-line="4" id="part3-tail"><rect fill="#282828" height="30.2969" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1;" width="39.7441" x="768.1133" y="733.3516"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25.7441" x="775.1133" y="753.3467">Бэк</text></g><g class="participant participant-head" data-entity-uid="part4" data-qualified-name="db" data-source-line="5" id="part4-head"><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94.5615" x="1042.2012" y="78.9951">База данных</text><path d="M1074.4819,30 C1074.4819,20 1092.4819,20 1092.4819,20 C1092.4819,20 1110.4819,20 1110.4819,30 L1110.4819,56 C1110.4819,66 1092.4819,66 1092.4819,66 C1092.4819,66 1074.4819,66 1074.4819,56 L1074.4819,30" fill="#282828" style="stroke:#33FF33;stroke-width:1;"/><path d="M1074.4819,30 C1074.4819,40 1092.4819,40 1092.4819,40 C1092.4819,40 1110.4819,40 1110.4819,30" fill="none" style="stroke:#33FF33;stroke-width:1;"/></g><g class="participant participant-tail" data-entity-uid="part4" data-qualified-name="db" data-source-line="5" id="part4-tail"><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94.5615" x="1042.2012" y="746.3467">База данных</text><path d="M1074.4819,759.6484 C1074.4819,749.6484 1092.4819,749.6484 1092.4819,749.6484 C1092.4819,749.6484 1110.4819,749.6484 1110.4819,759.6484 L1110.4819,785.6484 C1110.4819,795.6484 1092.4819,795.6484 1092.4819,795.6484 C1092.4819,795.6484 1074.4819,795.6484 1074.4819,785.6484 L1074.4819,759.6484" fill="#282828" style="stroke:#33FF33;stroke-width:1;"/><path d="M1074.4819,759.6484 C1074.4819,769.6484 1092.4819,769.6484 1092.4819,769.6484 C1092.4819,769.6484 1110.4819,769.6484 1110.4819,759.6484" fill="none" style="stroke:#33FF33;stroke-width:1;"/></g><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="7" id="msg1"><polygon fill="#33FF33" points="450.7573,109.4297,460.7573,113.4297,450.7573,117.4297,454.7573,113.4297" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="79.5498" x2="456.7573" y1="113.4297" y2="113.4297"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="233.708" x="86.5498" y="108.3638">Нажимает на выбранную заметку</text></g><g class="message" data-entity-1="part2" data-entity-2="part3" data-source-line="8" id="msg2"><polygon fill="#33FF33" points="775.9854,138.5625,785.9854,142.5625,775.9854,146.5625,779.9854,142.5625" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="462.7573" x2="781.9854" y1="142.5625" y2="142.5625"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="244.5815" x="469.7573" y="137.4966">Запрос данных выбранной заметки</text></g><g class="message" data-entity-1="part3" data-entity-2="part4" data-source-line="9" id="msg3"><polygon fill="#33FF33" points="1080.4819,167.6953,1090.4819,171.6953,1080.4819,175.6953,1084.4819,171.6953" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="787.9854" x2="1086.4819" y1="171.6953" y2="171.6953"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="244.5815" x="794.9854" y="166.6294">Запрос данных выбранной заметки</text></g><g class="message" data-entity-1="part4" data-entity-2="part3" data-source-line="10" id="msg4"><polygon fill="#33FF33" points="798.9854,196.8281,788.9854,200.8281,798.9854,204.8281,794.9854,200.8281" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="792.9854" x2="1091.4819" y1="200.8281" y2="200.8281"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="251.6655" x="804.9854" y="195.7622">Возврат данных выбранной заметки</text></g><g class="message" data-entity-1="part3" data-entity-2="part2" data-source-line="11" id="msg5"><polygon fill="#33FF33" points="473.7573,225.9609,463.7573,229.9609,473.7573,233.9609,469.7573,229.9609" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="467.7573" x2="786.9854" y1="229.9609" y2="229.9609"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="280.1792" x="479.7573" y="224.895">Возвращает данные выбранной заметки</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" data-source-line="12" id="msg6"><polygon fill="#33FF33" points="90.5498,255.0938,80.5498,259.0938,90.5498,263.0938,86.5498,259.0938" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="84.5498" x2="461.7573" y1="259.0938" y2="259.0938"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="209.2695" x="96.5498" y="254.0278">Открывет выбранную заметку</text></g><path d="M15,274.0938 L79.4429,274.0938 L79.4429,281.2266 L69.4429,291.2266 L15,291.2266 L15,274.0938" fill="#33FF33"/><rect fill="none" height="90.5313" style="stroke:#33FF33;stroke-width:1;" width="521.8159" x="15" y="274.0938"/><text fill="#282828" font-family="Verdana" font-size="13" font-weight="700" lengthAdjust="spacing" textLength="19.4429" x="30" y="287.1606">alt</text><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="700" lengthAdjust="spacing" textLength="213.8716" x="94.4429" y="286.3042">[Возвращение на главный экран]</text><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="14" id="msg7"><polygon fill="#33FF33" points="450.7573,308.3594,460.7573,312.3594,450.7573,316.3594,454.7573,312.3594" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="79.5498" x2="456.7573" y1="312.3594" y2="312.3594"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="216.1694" x="86.5498" y="307.2935">Нажимает кнопку Мои заметки</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" data-source-line="15" id="msg8"><polygon fill="#33FF33" points="90.5498,352.625,80.5498,356.625,90.5498,360.625,86.5498,356.625" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="84.5498" x2="461.7573" y1="356.625" y2="356.625"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="280.998" x="96.5498" y="336.4263">Возвращает интерфейс главного экрана</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="138.7598" x="96.5498" y="351.5591">со всеми заметками</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="17" id="msg9"><polygon fill="#33FF33" points="450.7573,388.7578,460.7573,392.7578,450.7573,396.7578,454.7573,392.7578" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="79.5498" x2="456.7573" y1="392.7578" y2="392.7578"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="231.5942" x="86.5498" y="387.6919">Нажимает кнопку Редактировать</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" data-source-line="18" id="msg10"><polygon fill="#33FF33" points="90.5498,417.8906,80.5498,421.8906,90.5498,425.8906,86.5498,421.8906" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="84.5498" x2="461.7573" y1="421.8906" y2="421.8906"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="359.2075" x="96.5498" y="416.8247">Открывает окно с формой редактирования заметки</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="19" id="msg11"><polygon fill="#33FF33" points="450.7573,447.0234,460.7573,451.0234,450.7573,455.0234,454.7573,451.0234" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="79.5498" x2="456.7573" y1="451.0234" y2="451.0234"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="343.5288" x="86.5498" y="445.9575">Вносит изменения и нажимает кнопку Сохранить</text></g><path d="M15,466.0234 L79.4429,466.0234 L79.4429,473.1563 L69.4429,483.1563 L15,483.1563 L15,466.0234" fill="#33FF33"/><rect fill="none" height="90.5313" style="stroke:#33FF33;stroke-width:1;" width="521.8159" x="15" y="466.0234"/><text fill="#282828" font-family="Verdana" font-size="13" font-weight="700" lengthAdjust="spacing" textLength="19.4429" x="30" y="479.0903">alt</text><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="700" lengthAdjust="spacing" textLength="134.9863" x="94.4429" y="478.2339">[Отмена сохранения]</text><g class="message" data-entity-1="part1" data-entity-2="part2" data-source-line="21" id="msg12"><polygon fill="#33FF33" points="450.7573,500.2891,460.7573,504.2891,450.7573,508.2891,454.7573,504.2891" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="79.5498" x2="456.7573" y1="504.2891" y2="504.2891"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="179.937" x="86.5498" y="499.2231">Нажимает кнопку Отмена</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" data-source-line="22" id="msg13"><polygon fill="#33FF33" points="90.5498,544.5547,80.5498,548.5547,90.5498,552.5547,86.5498,548.5547" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="84.5498" x2="461.7573" y1="548.5547" y2="548.5547"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="240.6333" x="96.5498" y="528.356">Закрывает форму редактирования</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="288.8438" x="96.5498" y="543.4888">и возвращает список со всеми заметками</text></g><g class="message" data-entity-1="part2" data-entity-2="part3" data-source-line="24" id="msg14"><polygon fill="#33FF33" points="775.9854,580.6875,785.9854,584.6875,775.9854,588.6875,779.9854,584.6875" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="462.7573" x2="781.9854" y1="584.6875" y2="584.6875"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="301.228" x="469.7573" y="579.6216">Запрос на сохранение измененной заметки</text></g><g class="message" data-entity-1="part3" data-entity-2="part4" data-source-line="25" id="msg15"><polygon fill="#33FF33" points="1080.4819,609.8203,1090.4819,613.8203,1080.4819,617.8203,1084.4819,613.8203" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;" x1="787.9854" x2="1086.4819" y1="613.8203" y2="613.8203"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="251.9893" x="794.9854" y="608.7544">Запись данных измененной заметки</text></g><g class="message" data-entity-1="part4" data-entity-2="part3" data-source-line="26" id="msg16"><polygon fill="#33FF33" points="798.9854,638.9531,788.9854,642.9531,798.9854,646.9531,794.9854,642.9531" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="792.9854" x2="1091.4819" y1="642.9531" y2="642.9531"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="280.4966" x="804.9854" y="637.8872">Ответ об успешном сохранении заметки</text></g><g class="message" data-entity-1="part3" data-entity-2="part2" data-source-line="27" id="msg17"><polygon fill="#33FF33" points="473.7573,668.0859,463.7573,672.0859,473.7573,676.0859,469.7573,672.0859" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="467.7573" x2="786.9854" y1="672.0859" y2="672.0859"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="280.4966" x="479.7573" y="667.02">Ответ об успешном сохранении заметки</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" data-source-line="28" id="msg18"><polygon fill="#33FF33" points="90.5498,712.3516,80.5498,716.3516,90.5498,720.3516,86.5498,716.3516" style="stroke:#33FF33;stroke-width:1;"/><line style="stroke:#33FF33;stroke-width:1;stroke-dasharray:2,2;" x1="84.5498" x2="461.7573" y1="716.3516" y2="716.3516"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="271.1338" x="96.5498" y="696.1528">Уведомление "Изменения сохранены!",</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="273.5396" x="96.5498" y="711.2856">отображает обновленную информацию</text></g><?plantuml-src hPHDSjf048NtSuenwt21L2edyKO8LKB5KLn2sOD_KadXE6Lld4L-AnSGSe01WxX2putoUcQaIB8AGPLN3D3zpUlNFNqKlmxU1jAFukwhA0X2uVdnkqZIJyheGL_H0fyf9VgCPlnTUaFvVXX4ujIBue4_EFN26C5wH8eU43f7s0Rd6GVw9uCWZAkXD_ephVZFdkU_4NqlzdhUC90Tkg44boMI_kAmeOsUwCiE1_PxGl2LillI4PzB-ewWEUvPutEcpoGoa9hg2KsXnGBEzRLa988GGYjzBcm-a_XwSExmznOPcHvNRgwnKDcomY8bcC2aVky9E2-wNGkwHSW2IIFs_52KAuzXhhuoxbFkLG55czgXndj65kR_C6wEa9XQOAlltabSrvBFYUtSFQOd0Ov5BINFYCK9ATjxlpB2jtoJf6yugdeDZbAfej4Q1GKOTHHt0OLBxcOX3V7tb9N4KN8SwZ5-0cMCy7NzOZuf4OHzSM0Hlq3ZBgs0KJnMzWtggvPkE5PcQHBoKKS6mDfq5eS6BZT2VsbiUrdnBIDHfx8-BJWMFytoT6LQkQEetqY_TCufKumP2zPlKObaDuiOHpvy14h4nixV6GVAZkKk8NkNHySXLvas30w4Rn4nPklbdZEnUnarsy4Ffkhzdhk9nM5zLnVAlgHYEx6pQJvZKucdpdNFz4UJl6uIhDgNr5DG7tVv3pDHBmXumRbx7VhwQ7JhV3qvwZn3hpEmCxVOvl_VrjJ8IXtKxJjU7FbJI_G7SA__0G00?></g></svg></div></div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2026 <br/> <a href="https://t.me/nikita_vasilnyak"> <svg height="12" viewbox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z" fill="#d7f0f9"></path></svg> Nikita Vasilnyak</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.path", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+<script src="../../../assets/mkdocs_puml/puml.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+<script src="../../../assets/mkdocs_puml/interaction.js"></script>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script><script>document$.subscribe(() => {
+            const dark_scheme_name = "slate"
+            
+            window.scheme = document.body.getAttribute("data-md-color-scheme")
+            const options = {
+                attributeFilter: ['data-md-color-scheme'],
+            };
+            function color_scheme_callback(mutations) {
+                for (let mutation of mutations) {
+                    if (mutation.attributeName === "data-md-color-scheme") {
+                        scheme = document.body.getAttribute("data-md-color-scheme")
+                        var iframe_list = document.getElementsByClassName("redoc-iframe")
+                        for(var i = 0; i < iframe_list.length; i++) {
+                            var ele = iframe_list.item(i);
+                            if (ele) {
+                                if (scheme === dark_scheme_name) {
+                                    ele.contentWindow.enable_dark_mode();
+                                } else {
+                                    ele.contentWindow.disable_dark_mode();
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            observer = new MutationObserver(color_scheme_callback);
+            observer.observe(document.body, options);
+            })</script></body></html>

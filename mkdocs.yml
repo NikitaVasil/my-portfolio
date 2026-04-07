@@ -7,8 +7,8 @@ copyright: Copyright &copy; 2026 <br> <a href="https://t.me/nikita_vasilnyak"> <
 
 theme:
   name: material
-  # logo: assets/image/logo.svg
-  # favicon: assets/image/logo.svg
+  logo: assets/image/logo.svg
+  favicon: assets/image/logo.svg
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода

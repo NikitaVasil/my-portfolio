@@ -50,6 +50,10 @@ markdown_extensions:
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - pymdownx.details # Использование спойлеров (катов)
   - pymdownx.superfences # Поддержка вложенных блоков кода
+  - attr_list # Использование html-атрибутов и CSS в элементах markdown
+  - md_in_html # Поддержка markdown внутри html
+  - pymdownx.blocks.caption # Подрисуночная подпись и центрирование
+  - pymdownx.snippets # Сниппет
   - pymdownx.tabbed: # Использование вкладок (табов)
       alternate_style: true
   - pymdownx.tasklist:
@@ -59,10 +63,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
-  - attr_list # Использование html-атрибутов и CSS в элементах markdown
-  - md_in_html # Поддержка markdown внутри html
-  - pymdownx.blocks.caption # Подрисуночная подпись и центрирование
 
+# INHERIT: "mkdocs.yml"
 plugins:
   - search
   - glightbox # Для красивых галерей скриншотов
@@ -74,6 +76,7 @@ plugins:
       puml_url: https://www.plantuml.com/plantuml/
       theme:
         enabled: false
+  - include-markdown
 
 extra:
   generator: false # Убирает "Made with MkDocs"
